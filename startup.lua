@@ -15,7 +15,7 @@ local debugmode = false
 
 sb.say("Welcome, sir.")
 
-term.setCursor(1,1) g.setForeground(0x00FFFF) term.write("◯-") g.setForeground(0xFFFFFF) term.write("JJS Corp | Rctr Ctrl") g.setForeground(0x00FFFF) term.write("-◯")
+term.setCursor(1,1) g.setForeground(0x00FFFF) term.write(")-") g.setForeground(0xFFFFFF) term.write("JJS Corp | Rctr Ctrl") g.setForeground(0x00FFFF) term.write("-(")
 
 if debugmode == false then
 g.setResolution(24,5)
